@@ -1,0 +1,30 @@
+
+###
+
+GET http://localhost:3333/parques
+
+###
+
+POST http://localhost:3333/parques
+Content-Type: application/json
+
+{
+    "nome": "Cafeteria da Lulu",
+    "local": "Av. Café Quente",
+    "descricao": "Ambiente acolhedor com várias opções de café"
+}
+
+###
+
+PUT http://localhost:3333/parques/207ba239-dea3-4c43-8bd1-a4d078e3ce5a
+Content-Type: application/json
+
+{
+    "nome": "Cafeteria da Lulu",
+    "local": "Av. Café Quente",
+    "descricao": "Ambiente acolhedor com várias opções de café"
+}
+
+###
+
+DELETE http://localhost:3333/parques/99c17a2e-9d46-420c-9cad-b15183eab2b1
